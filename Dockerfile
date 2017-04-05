@@ -9,3 +9,5 @@ RUN apk upgrade && \
 ADD requirements.txt /var/requirements.txt
 
 RUN pip install -r /var/requirements.txt
+
+RUN pip install uwsgi==2.0.14
