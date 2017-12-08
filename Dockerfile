@@ -1,4 +1,4 @@
-FROM python:3.5-alpine
+FROM python:3.6-alpine
 
 RUN apk upgrade && \
   apk add --no-cache --virtual build-dependencies linux-headers postgresql-dev make gcc \
